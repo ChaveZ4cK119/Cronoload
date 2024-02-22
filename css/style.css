@@ -1,0 +1,90 @@
+/* css del header */
+header{
+    height: 90px;
+    display: flex;
+    background-color: rgb(249, 196, 99);
+    align-items: center;
+    justify-content: space-between;
+}
+.user{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+   margin-right: 20px;
+    display: inline-block;
+}
+.user h4{
+    margin-top: 0px;
+}
+.titu{
+    align-items: center;
+    margin: 20px;
+    display: flex;
+}
+.titu2{
+    display: flex;
+    margin-left: 20px;
+}
+.titu2 h4{
+    margin-left: 10px;
+}
+
+/* Css del cuerpo */
+.body{
+    align-items: center;
+}
+.b1{
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 123, 0);
+    display: flex;
+}
+.crono{
+    width: 100%;
+}
+.n1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(250, 147, 37);
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.n1 h4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bb2{
+    margin-left: 10px;
+    background-color: orangered;
+}
+.lista{
+    visibility: hidden;
+    display: none;
+   
+    background-color: #f9f9f9;
+    
+    list-style: none;
+}
+.n1:hover{
+    .lista{
+    visibility:visible;
+    display: block;
+    }
+    .n2{
+         background-color: rgb(240, 124, 0);
+   
+    }
+
+    align-items: center;
+    display: block;
+    cursor: pointer;
+}
+.n2{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
